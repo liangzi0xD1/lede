@@ -192,9 +192,9 @@ jobs:
           EOF
 
           # 网络配置：
-          cat >> .config <<EOF
-          CONFIG_PACKAGE_kmod-openvswitch=y
-          EOF
+          #cat >> .config <<EOF
+          # CONFIG_PACKAGE_kmod-openvswitch=y
+          #EOF
 
           #
           # Open vSwitch
